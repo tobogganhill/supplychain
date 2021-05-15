@@ -1,13 +1,12 @@
-# Supply chain & data auditing
+# Supply Chain & Data Auditing
 
-This repository containts an Ethereum DApp that demonstrates a Supply Chain flow
-between a Seller and Buyer. The user story is similar to any commonly used
-supply chain process. A Seller can add items to the inventory system stored in
-the blockchain. A Buyer can purchase such items from the inventory system.
-Additionally a Seller can mark an item as Shipped, and similarly a Buyer can
+This repository containts an Ethereum DApp demonstrating a Supply Chain flow
+between a Seller and a Buyer. A Seller can add items to the inventory system stored
+on the blockchain. A Buyer can purchase these items from the inventory system.
+Additionally, a Seller can mark an item as Shipped, and a Buyer can
 mark an item as Received.
 
-The DApp User Interface when running should look like...
+The DApp User Interface when running should look like the following:
 
 ![truffle test](images/ftc_product_overview.png)
 
@@ -25,13 +24,9 @@ deploy the project on a live system.
 
 ### Prerequisites
 
-Please make sure you've already installed ganache-cli, Truffle and enabled
-MetaMask extension in your browser.
+Install ganache-cli, Truffle and enable the MetaMask extension in your browser.
 
 ### Installing
-
-A step by step series of examples that tell you have to get a development env
-running
 
 Clone this repository:
 
@@ -53,7 +48,7 @@ Launch Ganache:
 ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
 ```
 
-Your terminal should look something like this:
+Your terminal will look something like the following:
 
 ![truffle test](images/ganache-cli.png)
 
@@ -85,7 +80,7 @@ Test smart contracts:
 truffle test
 ```
 
-All 10 tests should pass.
+All 10 tests must pass.
 
 ![truffle test](images/truffle_test.png)
 
@@ -97,10 +92,6 @@ npm run dev
 
 ## Built With
 
-- [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform
-  that runs smart contracts
-- [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer
-  hypermedia protocol to make the web faster, safer, and more open.
-- [Truffle Framework](http://truffleframework.com/) - Truffle is the most
-  popular development framework for Ethereum with a mission to make your life a
-  whole lot easier.
+- [Ethereum](https://www.ethereum.org/)
+- [IPFS](https://ipfs.io/)
+- [Truffle Framework](http://truffleframework.com/)
