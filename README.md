@@ -18,8 +18,7 @@ Truffle Assert - assertions for the emitted events.
 
 ### Versions
 
-Truffle v5.1.62
-Node v15.12.0  
+Truffle v5.1.62 Node v15.12.0  
 web3 ^1.2.9  
 solidity 0.5.16
 
@@ -60,19 +59,11 @@ Launch Ganache:
 ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
 ```
 
-Your terminal will look something like the following:
-
-![truffle test](images/ganache-cli.png)
-
 In a separate terminal window, Compile smart contracts:
 
 ```
 truffle compile
 ```
-
-Your terminal should look something like this:
-
-![truffle test](images/truffle_compile.png)
 
 This will create the smart contract artifacts in folder `build\contracts`.
 
@@ -82,10 +73,6 @@ Migrate smart contracts to the locally running blockchain, ganache-cli:
 truffle migrate
 ```
 
-Your terminal should look something like this:
-
-![truffle test](images/truffle_migrate.png)
-
 Test smart contracts:
 
 ```
@@ -93,8 +80,6 @@ truffle test
 ```
 
 All 10 tests must pass.
-
-![truffle test](images/truffle_test.png)
 
 In a separate terminal window, launch the DApp:
 
