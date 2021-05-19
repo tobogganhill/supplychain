@@ -18,7 +18,8 @@ Truffle Assert - assertions for the emitted events.
 
 ### Versions
 
-Truffle v5.1.62 Node v15.12.0  
+Truffle v5.1.62
+Node v15.12.0  
 web3 ^1.2.9  
 solidity 0.5.16
 
