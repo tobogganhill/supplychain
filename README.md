@@ -26,12 +26,18 @@ deploy the project on a live system.
 
 Install ganache-cli, Truffle and enable the MetaMask extension in your browser.
 
+### Versions
+
+Truffle v5.1.62
+Node v15.12.0
+
 ### Installing
 
 Clone this repository:
 
 ```
 git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
+git clone https://github.com/tobogganhill/supplychain
 ```
 
 Change directory to `project-6` folder and install all requisite npm packages
