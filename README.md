@@ -1,20 +1,30 @@
 # Supply Chain & Data Auditing
 
 This repository containts an Ethereum DApp demonstrating a Supply Chain flow
-between a Seller and a Buyer. A Seller can add items to the inventory system stored
-on the blockchain. A Buyer can purchase these items from the inventory system.
-Additionally, a Seller can mark an item as Shipped, and a Buyer can
-mark an item as Received.
+between a Seller and a Buyer. A Seller can add items to the inventory system
+stored on the blockchain. A Buyer can purchase these items from the inventory
+system. Additionally, a Seller can mark an item as Shipped, and a Buyer can mark
+an item as Received.
 
-The DApp User Interface when running should look like the following:
+### UML Diagrams
 
-![truffle test](images/ftc_product_overview.png)
+Diagrams can be found in the diagrams folder.
 
-![truffle test](images/ftc_farm_details.png)
+### Backend Libraries
 
-![truffle test](images/ftc_product_details.png)
+Chai Expect - assert correct properties returned from the fetchItemBuffer
+function.  
+Truffle Assert - assertions for the emitted events.
 
-![truffle test](images/ftc_transaction_history.png)
+### Versions
+
+Truffle v5.1.62 Node v15.12.0  
+web3 ^1.2.9  
+solidity 0.5.16
+
+### Contract address
+
+https://rinkeby.etherscan.io/address/0x962C5Af10801b1dBdA35D192eefF38D8B2a0DfbE
 
 ## Getting Started
 
@@ -25,11 +35,6 @@ deploy the project on a live system.
 ### Prerequisites
 
 Install ganache-cli, Truffle and enable the MetaMask extension in your browser.
-
-### Versions
-
-Truffle v5.1.62
-Node v15.12.0
 
 ### Installing
 
@@ -99,5 +104,4 @@ npm run dev
 ## Built With
 
 - [Ethereum](https://www.ethereum.org/)
-- [IPFS](https://ipfs.io/)
 - [Truffle Framework](http://truffleframework.com/)

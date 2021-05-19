@@ -1,6 +1,6 @@
 body {
 	background-color: #fff;
-	padding: 2em;
+	padding: 3em;
 	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 	color: #212121;
 }
@@ -23,13 +23,13 @@ input {
 button {
 	cursor: pointer;
 	background-color: #4caf50;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: none;
 	color: white;
 	font-size: 18px;
 	padding: 10px 10px;
 	text-decoration: none;
-	margin: 4px 2px;
+	margin: 4px 4px;
 }
 
 .sell {
@@ -37,16 +37,9 @@ button {
 	color: #d1c4e9;
 }
 
-.ftc-intro {
-	background-color: #0097a7;
-	color: white;
-	width: 100%;
-	padding: 20px;
-}
-
 .form-group {
 	background-color: palegreen;
-	color: black;
+	color: #212121;
 	width: 50%;
 	padding: 30px;
 	border-radius: 4px;
@@ -61,5 +54,5 @@ button {
 }
 
 .horizontal-rule {
-	background-color: #aaaaaa;
+	background-color: #212121;
 }

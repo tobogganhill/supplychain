@@ -140,9 +140,10 @@ contract SupplyChain is Ownable, RetailerRole, ConsumerRole, DistributorRole {
     _;
   }
 
+  // Initial Values:
   // In the constructor set 'owner' to the address that instantiated the contract
-  // and set 'sku' to 1
-  // and set 'upc' to 1
+  // set 'sku' to 1
+  // set 'upc' to 1
   constructor() public payable {
     sku = 1;
     upc = 1;
